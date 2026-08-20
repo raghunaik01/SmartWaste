@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♻ Waste Passport"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your personal waste recycling record"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Waste Statistics"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="30dp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvPlastic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♻ Plastic Recycled: 0 kg"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvPaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 Paper Recycled: 0 kg"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvEWaste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♻ Metal + Organic: 0 kg"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♻ Total Waste Recycled: 0 kg"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No waste scanned yet."
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

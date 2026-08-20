@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Dashboard"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/totalUsersText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Users: 0"
+            android:textSize="20sp"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/totalWasteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Waste: 0 kg"
+            android:textSize="20sp"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/totalPickupsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup Requests: 0"
+            android:textSize="20sp"
+            android:padding="16dp" />
+
+        <Button
+            android:id="@+id/viewUsersButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Users" />
+
+        <Button
+            android:id="@+id/viewPickupsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Pickup Requests" />
+
+        <Button
+            android:id="@+id/viewWasteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Waste Data" />
+
+    </LinearLayout>
+
+</ScrollView>

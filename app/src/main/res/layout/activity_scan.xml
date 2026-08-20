@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121016">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="♻️ Scan Waste"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the type of waste"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnPlastic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♻️ Plastic"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnPaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 Paper"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnOrganic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌱 Organic"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnMetal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔩 Metal"
+            android:textSize="18sp"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="📷 Capture Waste Image"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Captured waste image"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📦 Request Waste Pickup"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule a pickup for your recyclable waste."
+            android:textSize="18sp"
+            android:paddingBottom="30dp" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter pickup address"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etWasteType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:hint="Waste type (Plastic, Paper, E-waste...)"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:hint="Waste weight (kg)"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etPickupDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:hint="Pickup date (DD/MM/YYYY)"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etPickupTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:hint="Preferred pickup time"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnSubmitPickup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Submit Pickup Request"
+            android:textSize="17sp"
+            android:padding="14dp" />
+
+    </LinearLayout>
+
+</ScrollView>

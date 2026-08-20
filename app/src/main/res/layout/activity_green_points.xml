@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#100D14">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⭐ Green Points"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/pointsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Green Points: 25"
+        android:textSize="26sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌱 Keep recycling to earn more points!"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+</LinearLayout>
